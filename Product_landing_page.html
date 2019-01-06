@@ -99,6 +99,45 @@ li{
 #return{
   height: 300px;
 }
+#price{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+#container{
+  margin-top: 10%;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#details{
+  text-align: center;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px gray, 0 6px 10px red;
+}
+#btn{
+  font-size: 20px;
+  width: 110px;
+  height: 40px;
+  background: yellow;
+  border-radius: 10px;
+}
+#prod1{
+  height: 66%;
+  width: 83%;
+}
+#prod2{
+  height: 66%;
+  width: 83%;
+}
+#prod3{
+  height: 66%;
+  width: 80%;
+}
 @media (max-width: 950px){
     #hlink{
     padding-left: 45%;
@@ -133,7 +172,7 @@ li{
     <h1>ENTER YOUR EMAIL TO SUBSCRIBE</h1>
     <hr id="horz">
     <div id="input">
-      <input type="email" id="email" placeholder="Enter your email address" required/>
+      <input name="email" type="email" id="email" placeholder="Enter your email address" required/>
       <div id="ver"></div>
       <input id="submit" type="submit" value="SUBSCRIBE"></input>
     </div>
@@ -155,6 +194,37 @@ li{
   <hr>
   <h2>Top 5 things you can do  with an RTL-SRD</h2>
   <iframe id="video" height="515" width="715" src="https://www.youtube.com/embed/9QzklSyKqQM?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe>
+  <hr>
+</div>
+<h2>CHOOSE YOUR PRODUCT</h2>
+<div id="price">
+  <div id="container">
+    <img src="http://shop.jetvision.de/WebRoot/Store26/Shops/64807909/58F6/39C3/D0B1/A911/6763/C0A8/2AB8/11EA/RTL-SDR-R820T2-RTL1090.png" id="prod1">
+    <div id="details">
+    <p><b>RTL-SDR R820T2 RTL2832U 1PPM TCXO SMA DONGLE</b></p>
+    <p>Range 24–1766 MHz<p>
+    <h3>Rs. 3560</h3>
+      <button id="btn">BUY</button>
+    </div>
+  </div>
+  <div id="container">
+    <img src="https://3i2kbu3p64zdryox2qp5q43na-wpengine.netdna-ssl.com/wp-content/uploads/2013/03/rtlsdr-dvbt-820t2-454A9410a.jpg" id="prod2">
+    <div id="details">
+    <p><b>RTL28232U-based USB stick with R820T Tuner</b></p>
+    <p>Range 24 – 1750 MHz<p>
+    <h3>Rs. 1500</h3>
+      <button id="btn">BUY</button>
+    </div>
+  </div>
+  <div id="container">
+    <img src="https://www.passion-radio.com/389-thickbox_default/hackrf-sdr.jpg" id="prod3">
+    <div id="details">
+    <p><b>HackRF One SDR Tranceiver</b></p>
+    <p>Range 1MHz - 6GHz<p>
+    <h3>Rs. 40000</h3>
+      <button id="btn">BUY</button>
+    </div>
+  </div>
 </div>
 </div>
 
