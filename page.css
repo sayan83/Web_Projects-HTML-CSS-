@@ -160,5 +160,12 @@ li{
      padding-right: 5%;
     }
 }
+@media (max-width: 500px){
+     #form{
+	   margin-top: 0;
+	   margin-right: 15%;	
+	   margin-left: -20%;
+	}
+}
 
 </style>
